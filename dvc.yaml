@@ -1,0 +1,6 @@
+stages:
+  training:
+    cmd: "\n"
+    deps:
+    - data/heart_train.csv
+    - model.py

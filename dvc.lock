@@ -1,0 +1,11 @@
+schema: '2.0'
+stages:
+  training:
+    cmd: "\n"
+    deps:
+    - path: data/heart_train.csv
+      md5: 8cde08f736bb5e72ba464dae219a859e
+      size: 10128
+    - path: model.py
+      md5: 2974411d2866f6c1e5b386fda68e47f8
+      size: 1217
